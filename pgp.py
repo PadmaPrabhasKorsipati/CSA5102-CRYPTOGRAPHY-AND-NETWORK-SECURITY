@@ -7,7 +7,6 @@ def encrypt_decrypt(data, key):
         result += chr(ord(data[i]) ^ ord(key[i % len(key)]))
     return result
 
-
 # Digital signature using SHA-256
 def generate_signature(message):
     return hashlib.sha256(message.encode()).hexdigest()
