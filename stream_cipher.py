@@ -10,7 +10,6 @@ def xor_operation(a, b):
 
     return result
 
-
 def encrypt(plaintext, key):
 
     cipher = xor_operation(plaintext, key)
