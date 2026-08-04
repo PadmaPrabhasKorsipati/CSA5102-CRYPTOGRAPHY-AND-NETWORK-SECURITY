@@ -60,7 +60,6 @@ def decrypt(cipher, rails):
 
     return result
 
-
 print("Rail Fence Cipher")
 print("1. Encrypt")
 print("2. Decrypt")
