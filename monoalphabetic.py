@@ -11,7 +11,6 @@ def encrypt(text, key):
 
     return result
 
-
 def decrypt(cipher, key):
     result = ""
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
