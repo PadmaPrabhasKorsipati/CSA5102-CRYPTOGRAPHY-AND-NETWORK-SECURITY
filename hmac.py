@@ -7,7 +7,6 @@ def simple_hash(text):
 
     return h
 
-
 def generate_hmac(message, key):
 
     inner = key + message
