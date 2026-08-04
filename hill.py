@@ -51,7 +51,7 @@ print("2. Decrypt")
 choice = int(input("Enter choice: "))
 
 
-# Key matrix
+
 key = [[3,3],
        [2,5]]
 
