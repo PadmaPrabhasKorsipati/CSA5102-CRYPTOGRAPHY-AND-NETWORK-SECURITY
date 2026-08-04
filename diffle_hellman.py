@@ -5,7 +5,6 @@ def power(a, b, p):
         result = (result * a) % p
     return result
 
-
 def diffie_hellman():
     p = int(input("Enter prime number (p): "))
     g = int(input("Enter primitive root (g): "))
