@@ -2,7 +2,6 @@ def left_rotate(x, n):
     n = n % 32
     return ((x << n) & 0xFFFFFFFF) | (x >> (32 - n))
 
-
 def right_rotate(x, n):
     n = n % 32
     return (x >> n) | ((x << (32 - n)) & 0xFFFFFFFF)
