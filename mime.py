@@ -5,7 +5,6 @@ print("1. Encode")
 print("2. Decode")
 
 choice = int(input("Enter choice: "))
-
 # ENCODE
 if choice == 1:
     message = input("Enter message: ")
