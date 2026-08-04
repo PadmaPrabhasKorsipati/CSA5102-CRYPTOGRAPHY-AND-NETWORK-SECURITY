@@ -3,7 +3,6 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
-
 def mod_inverse(e, phi):
     for d in range(1, phi):
         if (d * e) % phi == 1:
