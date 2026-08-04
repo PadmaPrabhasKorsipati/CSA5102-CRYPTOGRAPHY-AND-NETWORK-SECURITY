@@ -11,7 +11,6 @@ def generate_mac(message, key):
 
     return mac
 
-
 print("Message Authentication Code (MAC)")
 print("1. Encrypt")
 print("2. Decrypt")
