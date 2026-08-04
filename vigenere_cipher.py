@@ -45,6 +45,7 @@ def decrypt(text, key):
 
 
 print("Vigenere Cipher")
+
 print("1. Encrypt")
 print("2. Decrypt")
 
