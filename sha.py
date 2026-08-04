@@ -9,7 +9,6 @@ def simple_sha(message):
 
     return h
 
-
 print("SHA Algorithm")
 print("1. Encrypt")
 print("2. Decrypt")
