@@ -7,7 +7,6 @@ def generate_bits(n):
 
     return bits
 
-
 def generate_bases(n):
 
     bases = []
