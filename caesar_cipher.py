@@ -1,7 +1,6 @@
 
 def encrypt(text, key):
     result = ""
-
     for ch in text:
         if ch.isalpha():
 
