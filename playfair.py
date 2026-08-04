@@ -75,7 +75,6 @@ def prepare(string):
     if len(string) % 2 != 0:
         string += 'z'
     return string
-
 # Function for performing the encryption
 def encrypt(string, keyT):
     n = len(string)
