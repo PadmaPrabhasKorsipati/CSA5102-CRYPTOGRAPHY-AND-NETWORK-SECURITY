@@ -9,8 +9,6 @@ def xor(a,b):
 
 
 def F(x):
-
-    # simple substitution function
     return x[::-1]
 
 
