@@ -11,7 +11,6 @@ def xor(a,b):
             result+="1"
     return result
 
-
 def des_encrypt(text,key):
 
     left = text[:32]
